@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { DragDropContext, Droppable , Draggable} from "react-beautiful-dnd";
+import { useMediaQuery } from 'react-responsive';
 import TopHeader from './Components/Top-Header';
 
 
