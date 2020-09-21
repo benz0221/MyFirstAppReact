@@ -1,0 +1,60 @@
+.app {
+  background: #ffffff;
+  height: 100vh;
+  padding: 30px;
+}
+
+.todo-list {
+  background: #e8e8e8;
+  border-radius: 4px;
+  max-width: 500px;
+  padding: 15px;
+  margin: auto ;
+}
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 13px 10px;
+}
+
+.input {
+  background: #ffffff;
+  border-radius: 4px;
+  width: 70%;
+  padding: 10px;
+  margin: 10px 15px 0 0;
+  
+  
+}
+.addTask{
+  background: #008CBA;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+  width:20%;
+  padding: 9px;
+  cursor: pointer;
+  
+}
+.addTask:hover {
+  background-color: #21641f; 
+  color: #ffffff;
+}
+
+.removeTask:hover {
+  background-color: #af2d2d; 
+  color: #ffffff;
+}
+
+.Header {
+  margin: 25px 0px 0px 400px;
+ }
+ 
+ 
+  
